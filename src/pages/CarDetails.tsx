@@ -48,11 +48,11 @@ const CarDetails = () => {
               <h1 className="text-4xl font-display font-bold text-foreground mt-1">{car.name}</h1>
             </div>
 
-            <div className="flex items-center gap-2 text-3xl font-bold text-primary">
+            {/* <div className="flex items-center gap-2 text-3xl font-bold text-primary">
               <IndianRupee className="h-6 w-6" />
               {car.pricePerKm}
               <span className="text-base text-muted-foreground font-normal">/km</span>
-            </div>
+            </div> */}
 
             <p className="text-muted-foreground leading-relaxed">{car.description}</p>
 
