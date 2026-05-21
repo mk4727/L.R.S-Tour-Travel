@@ -152,7 +152,7 @@ const BookRide = () => {
                   className="w-full px-4 py-3 rounded-lg bg-secondary border border-border text-foreground focus:outline-none focus:ring-2 focus:ring-primary/50">
                   <option value="">Choose a car</option>
                   /* {availableCars.map((c) => (
-                    <option key={c.id} value={c.id}>{c.name} — ₹{c.pricePerKm}/km</option>
+                    <option key={c.id} value={c.id}>{c.name} </option>
                   ))} */
                 </select>
               </div>
