@@ -33,10 +33,10 @@ const CarCard = ({ car }: { car: Car }) => {
         </div>
 
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-1 text-primary font-bold text-lg">
+          {/* <div className="flex items-center gap-1 text-primary font-bold text-lg">
             <IndianRupee className="h-4 w-4" />
             {car.pricePerKm}<span className="text-sm text-muted-foreground font-normal">/km</span>
-          </div>
+          </div> */}
 
           {car.available ? (
             <Link
