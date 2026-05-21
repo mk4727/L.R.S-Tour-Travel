@@ -328,7 +328,7 @@ const AdminDashboard = ({ onLogout }: { onLogout: () => void }) => {
                   <div className="flex-1 grid grid-cols-1 md:grid-cols-3 gap-3">
                     <div><label className="text-xs text-muted-foreground">Name</label><Input value={car.name} onChange={(e) => updateCar(car.id, "name", e.target.value)} /></div>
                     <div><label className="text-xs text-muted-foreground">Type</label><Input value={car.type} onChange={(e) => updateCar(car.id, "type", e.target.value)} /></div>
-                    <div><label className="text-xs text-muted-foreground">Price/km (₹)</label><Input type="number" value={car.price_per_km} onChange={(e) => updateCar(car.id, "price_per_km", +e.target.value)} /></div>
+                    {/* <div><label className="text-xs text-muted-foreground">Price/km (₹)</label><Input type="number" value={car.price_per_km} onChange={(e) => updateCar(car.id, "price_per_km", +e.target.value)} /></div> */}
                     <div><label className="text-xs text-muted-foreground">Seats</label><Input type="number" value={car.seats} onChange={(e) => updateCar(car.id, "seats", +e.target.value)} /></div>
                     <div><label className="text-xs text-muted-foreground">Fuel Type</label><Input value={car.fuel_type} onChange={(e) => updateCar(car.id, "fuel_type", e.target.value)} /></div>
                     <div><ImageUpload label="Car Image" value={car.image} onChange={(url) => updateCar(car.id, "image", url)} /></div>
