@@ -190,7 +190,7 @@ const BookRide = () => {
                 placeholder="Any special requests..." />
             </div>
 
-            <div className="p-4 rounded-lg bg-secondary/50 border border-border space-y-3">
+            {/* <div className="p-4 rounded-lg bg-secondary/50 border border-border space-y-3">
               <button type="button" onClick={calculateFare}
                 className="flex items-center gap-2 px-5 py-2.5 rounded-lg border border-primary text-primary text-sm font-semibold hover:bg-primary/10 transition-all">
                 <Calculator className="h-4 w-4" /> Calculate Fare
@@ -201,7 +201,7 @@ const BookRide = () => {
                   <span className="text-sm text-muted-foreground">Fare: <strong className="text-primary text-lg">₹{fare}</strong></span>
                 </div>
               )}
-            </div>
+            </div> */}
 
             <button type="submit"
               className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-bold text-lg hover:brightness-110 transition-all glow-amber">
